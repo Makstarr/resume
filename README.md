@@ -1,4 +1,4 @@
-### Страница в разработке! Дизайн проект и пдф версия <a href = "https://github.com/Makstarr/resume/"> тут </a>
+# <a href = "https://makstarr.github.io/resume/"> ОТКРЫТЬ ВЕБ СТРАНИЦУ </a>
 
 # Тарасов Максим
 ### junior frontend developer

@@ -4,7 +4,7 @@
 ### junior frontend developer
 
 
-##Навыки
+## Навыки
 
 Применяю в фронтенде: HTML5, JS(ES6), jQuery, SASS (SCSS), Webpack
 

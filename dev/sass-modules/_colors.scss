@@ -16,7 +16,7 @@
     --background-color: var(--background-light);
     --text-color: var(--text-light);
     --hover-color: var(--hover-color-light);
-    .content-window{
+    .window-frame{
         border: 1px solid var(--background-color);
     }
 }
@@ -26,7 +26,7 @@
     --background-color: var(--background-dark);
     --text-color: var(--text-dark);
     --hover-color: var(--hover-color-dark);
-    .content-window, .mob-header{
+    .window-frame, .mob-header{
         border: var(--border);
     }
 }
@@ -41,7 +41,7 @@
         --background-color: var(--background-dark);
         --text-color: var(--text-dark);
         --hover-color: var(--hover-color-dark);
-        .content-window, .mob-header{
+        .window-frame, .mob-header{
             border:  var(--border);
         }
     }

@@ -1,0 +1,144 @@
+
+$border: var(--border)
+// header
+.mob-header
+    position: fixed
+    left: 0
+    right: 0
+    z-index: 999
+
+    height: 105px
+    border-bottom: $border 
+    display: flex
+    justify-content: space-between
+
+    font-size: 12px
+    line-height: 14px
+
+    padding: 15px 20px
+    &__btns
+        display: flex
+        flex-direction: column
+        justify-content: space-around
+    
+    &__contacts
+
+
+// buttons 
+.btn, .btn:active, .btn:focus
+    background: none
+    outline: none
+
+.btn
+    transition: background-color .2s color .3s
+    border: $border
+
+    text-decoration: none!important
+    text-transform: uppercase
+    text-align: center
+
+    padding: 5px 15px
+
+
+    cursor: pointer
+
+
+    
+
+// links
+
+.links-of-links
+    display: flex
+    flex-direction: column
+    justify-content: space-around
+
+    list-style: none
+
+    margin: 0
+    padding: 0
+
+
+.link-with-icon
+    text-decoration: none!important
+    display: flex
+    align-items: center
+    
+    svg
+        margin: 0 10px 0 0
+
+.link-with-tags
+    padding: 20px 0
+    &__tags
+        display: block
+        opacity: 50%
+
+
+
+// main title
+.main-titles
+    position: relative
+    z-index: 1
+
+    height: 100vh
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+
+.main-h1
+    font-weight: 800
+    font-size: 38px
+    line-height: 50px
+    margin: 10px 0
+.main-h2
+    font-size: 20px
+    margin: 10px 0
+  
+//scroll arrow 
+
+.scroll-down-arrow 
+    position: absolute
+    bottom: 100px
+    font-size: 50px
+    animation-timing-function: easy-in-out 
+    animation: scroll-arrow 3s infinite forwards
+
+@media screan, (orientation: portrait) and (min-height: 1000px)
+    .main-h1
+        font-size: 90px
+        line-height: 100px
+    .main-h2
+        font-size: 50px
+        line-height: 60px
+    .scroll-down-arrow 
+        font-size: 100px
+     
+@keyframes scroll-arrow 
+    0%
+        transform: translateY(0px) rotate(90deg)
+    50%
+        transform: translateY(30px) rotate(90deg)
+    100%
+        transform: translateY(0px) rotate(90deg)
+
+// text with title
+.text-with-title
+    padding: 20px
+    &__title
+        font-size: 40px;
+        line-height: 60px;
+        text-align: center
+        font-weight: 400
+    &__subtitle
+        font-size: 20px
+        font-weight: 400
+    &__text
+        font-size: 16px
+        line-height: 140%
+
+// footer
+
+.footer
+    text-align: center
+    opacity: 10%
+    padding: 40px 0 20px

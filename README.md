@@ -1,5 +1,3 @@
-### Страница в разработке! Дизайн проект и пдф версия <a href = "https://github.com/Makstarr/resume/"> тут </a>
-
 # Тарасов Максим
 ### junior frontend developer
 

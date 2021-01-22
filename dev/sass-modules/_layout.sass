@@ -1,18 +1,90 @@
+// Стили связанные с размерами и распложениями элементов
 html
     -webkit-box-sizing: border-box
-       -moz-box-sizing: border-box
-            box-sizing: border-box
-
+    -moz-box-sizing: border-box
+    box-sizing: border-box
     *,
     *::before,
-    *::after 
+    *::after
         font-family: 'Roboto', sans-serif
         -webkit-box-sizing: inherit
-           -moz-box-sizing: inherit
-                box-sizing: inherit
+        -moz-box-sizing: inherit
+        box-sizing: inherit
 
+// Для телефона
 .window-frame
     width: 100vw
     height: 100vh
+    z-index: 0
+    overflow: scroll
+.header
     position: fixed
+    left: 0
+    right: 0
+    height: 105px
+    z-index: 999
+    display: flex
+    justify-content: space-between
+.menu
+    display: none
 
+.main-titles
+    position: relative
+    z-index: 1
+    height: 100vh
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+.main
+    z-index: 1
+
+// Для десктопа
+@media screan, (orientation: landscape) and (min-width:810px)
+    .window-frame
+        overflow: hidden
+        position: relative
+        top: 50%
+        transform: translateY(-50%)
+        margin: auto
+        width: 94vw
+        height: 94vh
+        max-height: 820px
+        max-width: 1300px
+        display: grid
+        grid-template-columns: 25% auto
+        grid-template-rows: 180px auto
+    .header
+        position: unset
+        max-width: 350px
+        flex-direction: column-reverse
+        grid-column-start: 1
+        grid-column-end: 2
+        grid-row-start: 1
+        grid-row-end: -1
+        height: 100%
+    .menu
+        display: block
+    .main-titles
+        grid-column-start: 2
+        grid-column-end: -1
+        grid-row-start: 1
+        grid-row-end: 2
+        height: auto
+    .main
+        overflow: scroll
+        scroll-behavior: smooth
+        width: 100%
+        position: unset
+        bottom: 0
+        top: 0
+        grid-column-start: 2
+        grid-column-end: -1
+        grid-row-start: 2
+        grid-row-end: -1
+        .text-with-title
+            max-width: 900px
+            margin: auto
+    .footer
+        grid-column-start: 2
+        grid-column-end: -1

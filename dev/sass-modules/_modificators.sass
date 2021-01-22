@@ -1,13 +1,15 @@
+// Различные модификаторы
+
 .text-with-border
     color: var(--background-color)
     -webkit-text-stroke-width: 1px
     -webkit-text-stroke-color: var(--text-color)
-.hover-arrows:hover::before
-    content: ">>"
-    margin-right: 10px
+
 .underlined-text
     text-decoration: underline
 
-// Для десктопа.hover-arrows::hover::before
-//  content: ">>"
-//  margin-right: 10px
+// Для десктопа
+@media screan, (orientation: landscape) and (min-width: 810px)
+    .hover-arrows::hover::before
+        content: ">>"
+        margin-right: 10px

@@ -4,15 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Резюме | Тарасов Максим</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <div class="window-frame">
-    </div>
-        <header class="mob-header">
-            <ul class="mob-header__contacts links-of-links">
+        <header class="header">
+            <ul class="header__contacts links-of-links">
                 <li class="links-of-links__item">
                     <a class="link-with-icon hover-arrows" target="_blank" href="https://github.com">
                         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -45,20 +44,42 @@
                     </a>
                 </li>
             </ul>
-            <div class="mob-header__btns">
-                <button class="btn color-swich-btn"><span class="color-swich-btn__text">Тема</span></button>
-                <a class="btn" href="./a4.pdf"> Открыть pdf</a>
+            <nav class="menu">
+                <ul class="links-of-links">
+                    <li class="links-of-links__item">
+                        <a class="link-with-icon" href="#skills">Навыки</a>
+                    </li>
+                    <li class="links-of-links__item">
+                        <a class="link-with-icon" href="#education">Образование</a>
+                    </li>
+                    <li class="links-of-links__item">
+                        <a class="link-with-icon" href="#experience">Опыт работы</a>
+                    </li>
+                    <li class="links-of-links__item">
+                        <a class="link-with-icon" href="#projects">Проекты</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header__btns">
+                <button class="btn color-swich-btn">
+                    <span class="color-swich-btn__text">
+                        Тема
+                    </span>
+                </button>
+                <a class="btn" href="./a4.pdf"> 
+                    Открыть pdf
+                </a>
             </div>
         </header>
+        <section class="main-titles">
+            <h1 class="main-h1 text-with-border"> Тарасов Максим </h1>
+            <h2 class="main-h2 text-with-border"> Junior frontend developer </h2>
+            <div class="scroll-down-arrow text-with-border"> >> </div>
+        </section>
         <main class=main>
-            <div class="main-titles">
-                <h1 class="main-h1 text-with-border"> Тарасов Максим </h1>
-                <h2 class="main-h2 text-with-border"> Junior frontend developer </h2>
-                <div class="scroll-down-arrow text-with-border">  >> </div>
-            </div>
             <section>
                 <div class="text-with-title">
-                    <h3 class="text-with-title__title">Навыки</h3>
+                    <h3 class="text-with-title__title" id=skills>Навыки</h3>
                     <p class="text-with-title__text">
                         Применяю в фронтенде: HTML5, JS(ES6), jQuery, SASS (SCSS), Webpack
                     </p>
@@ -86,7 +107,7 @@
             </section>
             <section>
                 <div class="text-with-title">
-                    <h3 class="text-with-title__title">Образование</h3>
+                    <h3 class="text-with-title__title" id=education>Образование</h3>
                     <p class="text-with-title__text">
                         Бакалавр <br />
                         МИСиС ИНМиН2016-2020<br />
@@ -100,9 +121,9 @@
                     </p>
                 </div>
             </section>
-            <section >
+            <section>
                 <div class="text-with-title">
-                    <h3 class="text-with-title__title">Опыт работы</h3>
+                    <h3 class="text-with-title__title" id=experience>Опыт работы</h3>
                     <p class="text-with-title__text">
                         <h4 class="text-with-title__text">
                             2018-2021 РО МОО Равные возможности
@@ -122,10 +143,11 @@
             </section>
             <section>
                 <div class="text-with-title">
-                    <h3 class="text-with-title__title">Проекты</h3>
+                    <h3 class="text-with-title__title" id=projects>Проекты</h3>
                     <h4 class="text-with-title__subtitle">Комерческие дизайн+разработка</h4>
                     <div class="link-with-tags">
-                        <a class="link-with-tags__link underlined-text" target="_blank" href="https://github.com/Makstarr/RV">
+                        <a class="link-with-tags__link underlined-text" target="_blank"
+                            href="https://github.com/Makstarr/RV">
                             Информационный сайт РО МОО Равные возможности
                         </a>
                         <span class="link-with-tags__tags">
@@ -133,16 +155,19 @@
                         </span>
                     </div>
                     <div class="link-with-tags">
-                        <a class="link-with-tags__link underlined-text" target="_blank" href="https://github.com/Makstarr/RV">
-                            Онлайн платформа РО МОО РВ (с потенциалом развития в магазин
-                            онлайн-контента)
-                        </a>
+                        <a class="link-with-tags__link underlined-text" target="_blank"
+                            href="https://github.com/Makstarr/RV">
+                            Онлайн платформа РО МОО РВ</a><br />
+                        (с потенциалом развития в магазин
+                        онлайн-контента)
+
                         <span class="link-with-tags__tags">
                             HTML, SCSS, jQuery, Wordpress
                         </span>
                     </div>
                     <div class="link-with-tags">
-                        <a class="link-with-tags__link underlined-text" target="_blank" href="https://github.com/Makstarr/OKOEM-photo-exhibition">
+                        <a class="link-with-tags__link underlined-text" target="_blank"
+                            href="https://github.com/Makstarr/OKOEM-photo-exhibition">
                             Онлайн-выставка фотографий мастерских ОКОЕМ
                         </a>
                         <span class="link-with-tags__tags">
@@ -151,18 +176,21 @@
                     </div>
                     <h4 class="text-with-title__subtitle">Учебные проекты</h4>
                     <div class="link-with-tags">
-                        <a class="link-with-tags__link underlined-text" target="_blank" href="https://github.com/Makstarr/tojustdo-app">
-                            React Todo list +  API + SQL (фронт в основном с вебинара, процесс подключения БД доделывал
-                            самостоятельно)
-                        </a>
+                        <a class="link-with-tags__link underlined-text" target="_blank"
+                            href="https://github.com/Makstarr/tojustdo-app">
+                            React Todo list +  API + SQL</a><br />
+                        (фронт в основном с вебинара, процесс подключения БД доделывал
+                        самостоятельно)
+
                         <span class="link-with-tags__tags">
                             React, Python (Flask), HTML, SCSS
                         </span>
                     </div>
                     <div class="link-with-tags">
-                        <a class="link-with-tags__link underlined-text" target="_blank" href="https://github.com/Makstarr/abiturientsIITiN">
-                            Проект на конкурс в магистратуру. Форма для сбора данных + страница. администратора
-                        </a>
+                        <a class="link-with-tags__link underlined-text" target="_blank"
+                            href="https://github.com/Makstarr/abiturientsIITiN">
+                            Проект на конкурс в магистратуру.</a><br />
+                        Форма для сбора данных + страница. администратора
                         <span class="link-with-tags__tags">
                             Python (Flask), HTML, SCSS
                         </span>
@@ -176,6 +204,9 @@
                 Спасибо, что дочитали! :)
             </footer>
         </main>
+
+    </div>
+
 </body>
 
 </html>

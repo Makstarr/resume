@@ -1,32 +1,42 @@
+// Стили связанные с цветами
+
 // Создаем переменные в области видимости всего html
-:root{
+:root {
     --border: 1px solid var(--text-color);
 
-    --background-dark: #121212;
+    --body-light: #fcfcfc;
+    --body-dark: #1d1d1d;
+
+    --background-dark: #131313;
     --background-light: #FFFFFF;
 
     --text-dark: #cecece;
     --text-light: #666666;
 
-    --hover-color-dark: #9D9D8C;
+    --hover-color-dark: #ffffff;
     --hover-color-light: #000;
 
     // По умолчанию
     --color-scheme: none;
+    --body-color: var(--body-light);
     --background-color: var(--background-light);
     --text-color: var(--text-light);
     --hover-color: var(--hover-color-light);
-    .window-frame{
+
+    .window-frame {
         border: 1px solid var(--background-color);
     }
 }
 
 // Если стоит темная тема, т.к. по умолчанию светлая
-[what-is-user-scheme = 'dark'] {
+[what-is-user-scheme='dark'] {
+    --body-color: var(--body-dark);
     --background-color: var(--background-dark);
     --text-color: var(--text-dark);
     --hover-color: var(--hover-color-dark);
-    .window-frame, .mob-header{
+
+    .window-frame,
+    .header {
         border: var(--border);
     }
 }
@@ -35,51 +45,81 @@
     :root {
         --color-scheme: 'dark'
     }
+
     // если не установлена светлая тема
     :root:not([what-is-user-scheme]) {
         --color-scheme: 'dark';
+        --body-color: var(--body-dark);
         --background-color: var(--background-dark);
         --text-color: var(--text-dark);
         --hover-color: var(--hover-color-dark);
-        .window-frame, .mob-header{
-            border:  var(--border);
+
+        .window-frame,
+        .header {
+            border: var(--border);
         }
     }
-}  
-
-html, .mob-header{
-    color: var(--text-color);
-    background-color: var(--background-color);
-}
-.mob-header{
-    border-bottom:  1px solid var(--text-color);
 }
 
-*::selection{
+html {
+    background-color: var(--body-color);
+}
+
+*::selection {
     background-color: #aaff3b;
 }
 
-a, a:visited, span{
+a,
+a:visited,
+span {
     color: var(--text-color);
 }
 
-svg path{
+svg path {
     fill: var(--text-color)
 }
 
-/* Для десктопа
-.btn:hover{
-    border-color: var(--hover-color);;
-    color: var(--hover-color);
-    span {
-        color: var(--hover-color);
-    }
+.window-frame,
+.header {
+    color: var(--text-color);
+    background-color: var(--background-color);
 }
 
-a:hover{
-    color: var(--hover-color);
-    svg path{
-        fill: var(--hover-color);
+.header {
+    border-bottom: 1px solid var(--text-color);
+}
+
+// Для десктопа
+@media screan,
+(orientation: landscape) and (min-width: 810px) {
+    .window-frame {
+        border: var(--border) !important;
+    }
+
+    .header {
+        border-bottom: none !important;
+        border-right: var(--border);
+    }
+
+    .window-frame {
+        box-shadow: 0 5px 5px #00000011, 0 3px 3px #1d1d1d1e;
+    }
+
+    .btn:hover {
+        border-color: var(--hover-color);
+        ;
+        color: var(--hover-color);
+
+        span {
+            color: var(--hover-color);
+        }
+    }
+
+    a:hover {
+        color: var(--hover-color);
+
+        svg path {
+            fill: var(--hover-color);
+        }
     }
 }
-*/

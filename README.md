@@ -1,7 +1,8 @@
 # <a href = "https://makstarr.github.io/resume/"> ОТКРЫТЬ ВЕБ СТРАНИЦУ </a>
 
 # Тарасов Максим
-### junior frontend developer
+### junior frontend developer (Vue.js)
+### На данный момент работу не ищу
 
 
 ## Навыки

@@ -7,19 +7,17 @@
 
 ## Навыки
 
-Применяю в фронтенде: HTML5, JS(ES6), jQuery, SASS (SCSS), Webpack
+Применяю в фронтенде: HTML5, JS(ES6), Vue, Vuex, Nuxt, React, Redux, SASS (SCSS), Python (Flask)
 
-Умею создавать сайты на CMS Wordpress 
-В домашних проектов и учебы применял: React, Redux, Gulp, JS+canvas, Python (Flask, SQLAlchemy, обработка данных) 
+Работаю с UI фрейммворками: Vuetify, Buefy, Styled-Components, Material-UI
 
-Сейчас изучаю: Js, React+Redux, Python
+Имею опыт разработки сайтов с нуля на CMS Wordpress, Flask
 
-Хотел бы получить опыт: Vue, TypeScript
+Английски знаю хорошо, свободно читаю/слушаю/общаюсь. Сдал экзамен IELTS на 6.5 (соответствует границе между B2 и C1)
 
 
 Английски знаю хорошо, свободно читаю/слушаю/общаюсь. Год назад  сдал экзамен IELTS на 6.5  (соответствует границе между B2 и C1)
 
-Изучаю немецкий
 
 ## Образование
 

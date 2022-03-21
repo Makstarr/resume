@@ -34,7 +34,7 @@ const setScheme = passedScheme => {
 
 // Меняем кнопку
 const setBtnStatus = (currentScheme) => {
-    colorSwitchText.innerHTML = `${currentScheme === 'dark' ? 'Светлая' : '&nbsp;Темная'} тема `
+    colorSwitchText.innerHTML = `${currentScheme === 'dark' ? 'White' : '&nbsp;Night'} theme `
 }
 
 // Переключаем схему

@@ -1,4 +1,5 @@
 # <a href = "https://makstarr.github.io/resume/"> ОТКРЫТЬ ВЕБ СТРАНИЦУ </a>
+# <a href = "https://makstarr.github.io/resume/"> OPEN WEB PAGE </a>
 
 # Тарасов Максим
 ### junior frontend developer (Vue.js)

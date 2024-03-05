@@ -1,62 +1,86 @@
-# Тарасов Максим
-### junior frontend developer (Vue.js)
-### На данный момент работу не ищу
+# <a href = "https://makstarr.github.io/resume/"> OPEN WEB VERSION </a>
 
+# Tarasov Maksim
+- 👨‍💻 Full-stack developer
+- 🎓 Master's in Computer Science
+- 🌍 Based in Berlin, Germany.
 
-## Навыки
+### 📫 Let's Connect:
+- [LinkedIn](https://www.linkedin.com/in/maks-tarasov-b84300233/)
+- [GitHub](https://github.com/Makstarr)
+- Email: maksi112@icloud.com
 
-Применяю в фронтенде: HTML5, JS(ES6), jQuery, SASS (SCSS), Webpack
+## Summary:
+I'm Maksim Tarasov, a full-stack developer. My passion lies in crafting user-centric applications that are both efficient and innovative. I bring to the table a wealth of experience in frontend development, with expertise in a variety of technologies such as TypeScript, React, Vue.js, and Nest.js. Throughout my career, I've led numerous projects from concept to delivery, collaborating seamlessly within cross-functional teams to ensure our solutions meet and exceed client expectations. I love experimenting with new stacks and technologies, integrating AI into my workflows for better efficiency, and fostering open communication and teamwork in flexible environments with a positive atmosphere.
 
-Умею создавать сайты на CMS Wordpress 
-В домашних проектов и учебы применял: React, Redux, Gulp, JS+canvas, Python (Flask, SQLAlchemy, обработка данных) 
+## Professional Experience:
 
-Сейчас изучаю: Js, React+Redux, Python
+### Full Stack Developer
+**Y1 Digital AG | Berlin, Remote**  
+*01.2023 - Present*
 
-Хотел бы получить опыт: Vue, TypeScript
+- Spearheaded the development of a large multipage personal management app for a major logistic company. The app boasted drag and drop structural diagram functionality and was built using React, with assistance from Nest API.
+- Contributed to the exploration and integration of Shopify into the company's tech stack, including theme development with Liquid and full-stack app development with Remix.
+- Developed new API routes and implemented logging solutions using technologies like Winston, Logstash, and the Elastic Stack.
+- Implemented Docker solutions across all projects, enhancing deployment processes.
 
+#### Skills:
+TypeScript, React, React Query, React dnd, Remix, styled-components, Webpack, Docker, Nest, Prisma, Ant Design, Bitbucket, Jira, Figma, Miro, GitHub, Shopify
 
-Английски знаю хорошо, свободно читаю/слушаю/общаюсь. Год назад  сдал экзамен IELTS на 6.5  (соответствует границе между B2 и C1)
+### Software Developer
+**Leroy Merlin | Moscow, Remote**  
+*10.2021 - 01.2023*
 
-Изучаю немецкий
+- Spearheaded the development of an internal system for the presale and customer project department, leveraging React, Redux Saga, and Flow to deliver a streamlined frontend experience.
+- Actively participated in code reviews, design demos, and collaborative sessions to optimize project outcomes within a large, cross-functional team environment.
+- Played a crucial role in refactoring and splitting a monorepository into smaller frontends for future microfrontend architecture.
+- Implemented unit tests using Jest and utilized CI/CD pipelines for seamless integration.
 
-## Образование
+#### Skills:
+React, Redux Saga, Flow, Jest, Webpack, Jira, Figma, Miro, GitHub, GitLab, Node.js
 
-Бакалавр 
-МИСиС ИНМиН 2016-2020 Электроника и наноэлектроника
+### Frontend Developer
+**Blockchain Solutions | Moscow, Hybrid**  
+*02.2021 - 10.2021*
 
-Магистратура
-МИСиС ИКТН (ИИБС)
-2020-2022
-Экосистемы больших данных
+- Led the development of UI for various projects, leveraging technologies such as TypeScript, React, Vue.js, Nuxt.js, and Next.js, while seamlessly integrating with REST APIs and blockchain technologies.
+- Built a large blockchain-based marketplace and integrated it with custom backends.
 
-## Опыт работы
+#### Skills:
+TypeScript, React, Vue.js, Nuxt.js, Next.js, WebSockets, Web3, Metamask, Blockchain, REST APIs, Material UI, Vuetify, Jira, Figma, GitHub
 
-2018-2021 РО МОО Равные возможности
-Начал на ресепшене, закончил как веб-разработчик и администратор сайтов.
+### Freelance WordPress Developer
+**Self-Employed**  
+*2019 - 2021*
 
-2019-2021 Выполнение заказов от веб-студий
-Полный цикл разработки сайтов (в основном провинциальных гос. учреждений) на Wordpress. 
-Создание/перенос дизайна в figma, работа с ТЗ, работа с заказчиками, верстка шаблонов, подключение WP, наполнение и хостинг.
+- Designed and developed numerous information sites for corporate and governmental clients, leveraging WordPress PHP integration and crafting UI/UX using HTML, CSS, SCSS, and JavaScript.
+- Utilized Webpack and Gulp for optimizing workflows and version control with GitHub.
 
-## Проекты
+#### Skills:
+WordPress, PHP, HTML, CSS, SCSS, JavaScript, jQuery, Webpack, Gulp, GitHub
 
-Комерческие дизайн+разработка 
+## Education:
 
-<a href="https://github.com/Makstarr/RV">  Информационный сайт РО МОО Равные возможности </a>
-HTML, SCSS, jQuery, Wordpress
+**Master of Computer Science (Big Data in Digital Transformation)**  
+*The National University of Science and Technology (MISiS) | Russia | 2020 - 2022*
 
-<a href="https://github.com/Makstarr/RV">  Онлайн платформа РО МОО РВ (с потенциалом развития в магазин онлайн-контента) </a>
-HTML, SCSS, jQuery, Wordpress
+- Completed specialized coursework in data analytics, machine learning, and digital transformation strategies.
 
-<a href="https://github.com/Makstarr/OKOEM-photo-exhibition">  Онлайн-выставка фотографий мастерских ОКОЕМ </a>
-jQuery, SCSS, Webpack
+**Bachelor of Microelectronics and Nanoelectronics**  
+*The National University of Science and Technology (MISiS) | Russia | 2016 - 2020*
 
-Учебные проекты 
+- Participated in research projects focusing on semiconductor device technology and applications.
+- Developed educational apps using JavaScript and the Canvas API.
 
-<a href="https://github.com/Makstarr/tojustdo-app">  React Todo list +  API + SQL (фронт в основном с вебинара, процесс подключения БД доделывал самостоятельно) </a>
-React, Python (Flask),  HTML, SCSS
+### Skills:
 
-<a href="https://github.com/Makstarr/abiturientsIITiN"> Проект на конкурс в магистратуру. Форма для сбора данных + страница. администратора  </a>
-Python (Flask), HTML, SCSS
+- Proficient in modern software development methodologies, including Agile, Scrum, and Kanban.
+- Strong analytical and problem-solving skills, with a keen eye for detail and a commitment to delivering high-quality solutions.
+- Experienced in collaborating with cross-functional teams to achieve project objectives efficiently.
+- Demonstrated ability to adapt quickly to new technologies and learn new concepts independently.
+- Familiarity with cloud computing platforms such as AWS, Azure, and Google Cloud Platform.
 
-Эти и другие проекты доступны на моем <a href="https://github.com/Makstarr/"> гитхабе </a>!
+## Language Skills:
+
+- Fluent in English (IELTS: 6.5 in 2019)
+- Basic knowledge of German, eager to learn and improve.

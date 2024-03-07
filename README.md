@@ -2,7 +2,7 @@
 
 # Tarasov Maksim
 - 👨‍💻 Full-stack developer
-- 🎓 Master's in Computer Science
+- 🎓 Master's in Computer Science related major
 - 🌍 Based in Berlin, Germany.
 
 ### 📫 Let's Connect:
@@ -78,7 +78,6 @@ WordPress, PHP, HTML, CSS, SCSS, JavaScript, jQuery, Webpack, Gulp, GitHub
 - Strong analytical and problem-solving skills, with a keen eye for detail and a commitment to delivering high-quality solutions.
 - Experienced in collaborating with cross-functional teams to achieve project objectives efficiently.
 - Demonstrated ability to adapt quickly to new technologies and learn new concepts independently.
-- Familiarity with cloud computing platforms such as AWS, Azure, and Google Cloud Platform.
 
 ## Language Skills:
 

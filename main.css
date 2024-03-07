@@ -352,6 +352,13 @@ html *, html *::before, html *::after {
     z-index: 1;
     height: 100vh;
     display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center
+}
+
+.main-titles > div {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center
@@ -456,11 +463,12 @@ html *, html *::before, html *::after {
 
 .links-of-links {
     display: flex;
+    gap: 5px;
     flex-direction: column;
     justify-content: space-around;
     list-style: none;
     margin: 0;
-    padding: 0
+    padding: 0;
 }
 
 .link-with-icon {
@@ -487,12 +495,20 @@ html *, html *::before, html *::after {
     font-weight: 800;
     font-size: 38px;
     line-height: 50px;
-    margin: 10px 0
+    margin: 10px 0;
+    display: flex;
+    gap: 20px;
+    align-items: center;
 }
 
 .main-h2 {
     font-size: 20px;
     margin: 10px 0
+}
+
+.main-image {
+    height: 130px;
+    margin: 0;
 }
 
 .scroll-down-arrow {
@@ -517,6 +533,11 @@ html *, html *::before, html *::after {
 }
 
 @media screan, (orientation: portrait) and (min-height: 1000px) {
+    .main-image {
+        height: 200px;
+        margin-bottom: 20px;
+    }
+
     .main-h1 {
         text-align: center;
         font-size: 90px;
@@ -565,7 +586,14 @@ html *, html *::before, html *::after {
     padding: 40px 0 20px
 }
 
+.main-image{
+    display: block;
+}
+
 @media screan, (orientation: landscape) and (min-width: 810px) {
+    .main-image{
+        display: none;
+    }
     .header__btns {
         height: 120px;
         font-size: 16px;
@@ -591,12 +619,17 @@ html *, html *::before, html *::after {
     }
 
     .main-titles {
-        justify-content: start;
+        justify-content: space-between;
+        text-align: start;
         align-items: start;
         padding: 30px;
         border-bottom: var(--border)
     }
-
+    .main-titles > div {
+        display: flex;
+        justify-content: start;
+        align-items: flex-start;
+    }
     .main-titles .main-h1 {
         font-weight: 800;
         font-size: 60px;
@@ -604,10 +637,11 @@ html *, html *::before, html *::after {
         margin: 0
     }
 
-    .main-titles .main-h2 {
-        font-size: 30px;
+    .main-titles div .main-h2 {
+        font-size: 40px;
         line-height: 30px;
-        margin-left: 5px
+        margin-left: 5px;
+        padding: 0
     }
 
     .text-with-title {
@@ -629,6 +663,10 @@ html *, html *::before, html *::after {
         line-height: 28px
     }
 
+    .main-image{
+        display: block;
+    }
+
     .header .link-with-icon {
         font-size: 20px
     }
@@ -644,7 +682,8 @@ html *, html *::before, html *::after {
     }
 
     .main-titles {
-        padding: 30px
+        padding: 30px;
+        flex-direction: row;
     }
 
     .main-titles .main-h1 {
